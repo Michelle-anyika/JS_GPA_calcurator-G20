@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gpa">
+    <h1>GPA CALCULATOR</h1>
+  </div>
+    <div class="container">
+        <!-- <h1>GPA CALCULATOR</h1> -->
+        
+        <div class="semester" id="semester1">
+            <h2>Semester I</h2>
+            
+            <table id="coursesTable">
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Grade</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="coursesBody">
+                    <!-- Courses will be added here dynamically -->
+                </tbody>
+            </table>
+            
+            <button id="addCourseBtn">Add Course</button>
+            
+            <div class="actions">
+                <button id="calculateBtn">Calculate GPA</button>
+                <!-- <button id="addSemesterBtn">Add Semester</button> -->
+            </div>
+            
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
