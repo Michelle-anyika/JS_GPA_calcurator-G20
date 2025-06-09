@@ -1,4 +1,4 @@
-// #!/usr/bin/node
+#!/usr/bin/node
 document.addEventListener("DOMContentLoaded", function () {
   const coursesBody = document.getElementById("coursesBody");
   const addCourseBtn = document.getElementById("addCourseBtn");
